@@ -15,6 +15,8 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
+        .navigationTitle("GS Notification")
+        .navigationBarTitleDisplayMode(.inline)
         .padding()
     }
 }
